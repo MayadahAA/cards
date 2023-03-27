@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    padding: 5% 20% 0 10%;
+    margin: 0 20% 0 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card {
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+.card .name {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    top: 47%;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+form{
+    padding: 5%;
+}
